@@ -103,7 +103,7 @@ nav ul li a:hover::after{
 .nav a{
 display: block;
 color: #eee;
-padding: 0 1rem;
+padding: 1rem 3rem 0rem 3rem;
 font-size: 1rem;
 text-transform: uppercase;
 transition: color 650ms;
@@ -564,7 +564,7 @@ margin-top: 10px;
 
 
 .Services2{
-  color: #ababaa;
+  color: #ffffff;
   background-color: rgba(15, 14, 14, 0.982);
   padding: 50px 30px ;
 
@@ -586,7 +586,7 @@ margin-top: 10px;
 
 
 .services-list div:hover{
-  background: #ff004f;
+  background: #04a1b0c8;
   transform: translateY(-10px);
 }
 
@@ -627,7 +627,7 @@ margin-top: 10px;
 .layer{
   width: 100%;
   height:70% ;
-  background: linear-gradient(#13121207, #ff0045);
+  background: linear-gradient(#13121207, #2caab6f3);
   border-radius: 10px;
   position: absolute;
   left: 0;
@@ -652,7 +652,7 @@ margin-top: 10px;
 
 .layer a{
   margin-top: 20px;
-  color: #ff004f;
+  color: #df096d;
   text-decoration: none;
   font-size: 18px;
   line-height: 60px;
@@ -701,7 +701,7 @@ margin-top: 30px;
 
 .contact-left p i{
 
-  color: #ff0045;
+  color: #1fecff;
   margin-right: 15px;
   font-size: 20px;
   
