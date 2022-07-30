@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2f6a1a8191.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <title>Logo</title>
+</head>
+<body>
+
+
+
+    <section class="my-work" id="my-work" >
+      
+         <h1 class="sub-titles">  Logo </h1>
+         <div class="flex">
+          
+     
+     
+           <div class="content">  <img src="/logo/01 Logo Mockup - by PuneDesign.jpg"  ></div>
+     
+           <div class="content">  <img src="/logo/23_April_16.jpg" > </div>
+           <div class="content">  <img src="/logo/A4_Bifold_Brochure_Mockup_2 .jpg"  ></div>
+     
+           <div class="content">  <img src="/logo/compressed_img_1659141736771.jpg" > </div>
+           <div class="content">  <img src="/logo/compressed_img_1659141690976.jpg "  ></div>
+     
+           <div class="content">  <img src="/logo/losh.jpg" > </div>
+           <div class="content">  <img src="/logo/3d glass window logo mockup.jpg" > </div>
+
+             
+     
+          
+     
+         </div>
+         
+         <a href="#" id="loadMore">Load More</a>
+       
+    
+       
+       </section>
+  
+       <script>
+  
+
+        $(document).ready(function(){
+          $(".content").slice(0, 3).show();
+          $("#loadMore").on("click", function(e){
+            e.preventDefault();
+            $(".content:hidden").slice(0, 3).slideDown();
+            if($(".content:hidden").length == 0) {
+              $("#loadMore").text("No Content").addClass("noContent");
+            }
+          });
+          
+        })
+      </script>
+
+
+
+
+    
+</body>
+</html>
