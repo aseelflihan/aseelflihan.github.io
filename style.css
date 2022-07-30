@@ -6,9 +6,12 @@
 }
 
 
+
+
 .container{
 width: 100%;
 height: 100vh;
+
 background: linear-gradient(rgba(0, 0, 0, 0.366),transparent),
 url("images/4.jpg");
 background-size: cover;
@@ -673,7 +676,95 @@ margin-top: 10px;
 
 }
 
-/*contact */
+
+ /* Load more  buttom*/
+
+ .flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  grid-gap: 160px;
+  margin-top: 50px;
+
+
+}
+.content {
+  height: 220x;
+  width: 100%;
+  color: #fff;
+  font-size: 24px;
+
+  display: none;
+
+
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+
+
+
+
+}
+#loadMore {
+  width: 200px;
+  color: rgb(255, 255, 255);
+  display: block;
+  text-align: center;
+  margin: 50px auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: #20e7f9a4;
+  transition: .3s;
+  text-decoration: none;
+  font-weight: 600;
+}
+#loadMore:hover {
+  color: rgb(0, 0, 0);
+  background-color: #fff;
+  border: 1px solid blue;
+  text-decoration: none;
+  font-weight: 600;
+}
+.noContent {
+  color: rgb(244, 88, 88) !important;
+  background-color: transparent !important;
+  pointer-events: none;
+  font-weight: 600;
+}
+
+
+
+
+.content img{
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s ;
+
+}
+
+.content:hover img{
+  transform: scale(1.1);
+}
+
+.content:hover .layer{
+  height: 100%;
+
+}
+
+/* Load more buttom */
+
+
+/* my work end*/
+
+
+
+/*contact  start*/
 
 #contact{
 padding: 50px 0;
@@ -725,3 +816,10 @@ transform: translateY(-5px);
   }
 
 /*contact */
+
+
+
+
+
+
+ 
